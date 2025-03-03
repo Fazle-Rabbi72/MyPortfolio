@@ -2,8 +2,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[var(--bg-color)] text-[var(--text-color)] py-10 px-6 md:px-16">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
+    <footer className="bg-[var(--bg-color)] bottom-0 w-full  text-[var(--text-color)] py-10 px-6 md:px-16">
+      <div className="container mx-auto w-full grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
         {/* Left Section */}
         <div>
           <h2 className="text-2xl font-bold text-teal-400">My Portfolio</h2>

@@ -29,7 +29,7 @@ const Header = () => {
 
         <div className="flex ">
           <ThemeToggle />
-          <Link to="/contact"><button className="mx-2 border-3 border-teal-500 bg-[var(--bg-color)] hover:bg-[var(--bg-color-3)] px-4 py-1 rounded-md font-bold hover:cursor-pointer">Contact Me</button></Link>
+          <Link to="/contact"><button className="mx-2 border-3 border-teal-500 bg-teal-500 hover:bg-teal-600 text-white px-4 py-1 rounded-md font-bold hover:cursor-pointer">Contact Me</button></Link>
         </div>
 
         <div className="hamburger" onClick={handleMenuToggle}>

@@ -46,12 +46,12 @@ const Contact = () => {
           <p className="text-lg flex items-center gap-2">
             <span className="font-semibold text-teal-400">🔗 LinkedIn:</span>{" "}
             <a
-              href="https://www.linkedin.com/yea-saleh"
+              href="https://www.linkedin.com/in/fazle-rabbi-852616252/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-teal-300"
             >
-              www.linkedin.com/yea-saleh
+              www.linkedin.com/fazle-rabbi
             </a>
           </p>
           <p className="text-lg flex items-center gap-2">

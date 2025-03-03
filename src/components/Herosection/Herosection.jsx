@@ -10,28 +10,21 @@ const HeroSection = () => {
           <div className="hidden lg:flex flex-col items-center space-y-4">
             <div className="flex flex-col space-y-4 items-center">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/fazle.rabbi.77582"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaFacebook className="text-2xl hover:text-blue-600 transition" />
               </a>
               <a
-                href="https://twitter.com"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaTwitter className="text-2xl hover:text-blue-400 transition" />
-              </a>
-              <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/fazle-rabbi-852616252/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedin className="text-2xl hover:text-blue-700 transition" />
               </a>
               <a
-                href="https://github.com"
+                href="https://github.com/Fazle-Rabbi72"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -60,7 +53,7 @@ const HeroSection = () => {
             </p>
             <button className="relative bg-teal-500 text-white px-6 py-3 rounded-md self-start shadow-lg transition-transform transform hover:scale-105 hover:shadow-teal-500/50">
               <a
-                href="https://drive.google.com/file/d/1LBMHWpTgTGkvCTcHYiU8JQRCHb5-SRl8/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Q7zBVWuGYyGy67koDqzEVbngfnNweOpG/view?usp=sharing"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
@@ -79,28 +72,21 @@ const HeroSection = () => {
               </h3>
               <div className="flex space-x-6">
                 <a
-                  href="https://facebook.com"
+                  href="https://www.facebook.com/fazle.rabbi.77582"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaFacebook className="text-2xl hover:text-blue-600 transition" />
                 </a>
                 <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <FaTwitter className="text-2xl hover:text-blue-400 transition" />
-                </a>
-                <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/fazle-rabbi-852616252/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <FaLinkedin className="text-2xl hover:text-blue-700 transition" />
                 </a>
                 <a
-                  href="https://github.com"
+                  href="https://github.com/Fazle-Rabbi72"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
