@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebook, FaTwitter, FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook,  FaLinkedin, FaGithub } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
@@ -67,7 +67,7 @@ const HeroSection = () => {
           {/* Follow Me Section (Mobile Only) */}
           <div className="md:hidden">
             <div className=" flex-col items-center space-y-4 w-full flex mt-10">
-              <h3 className="text-xl font-semibold border px-4 bg-teal-500 text-center">
+              <h3 className="text-xl font-semibold rounded-md border px-4 bg-teal-500 text-center">
                 Follow Me
               </h3>
               <div className="flex space-x-6">
