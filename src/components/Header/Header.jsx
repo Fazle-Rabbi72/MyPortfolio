@@ -11,7 +11,7 @@ const Header = () => {
   };
 
   return (
-    <div className=" w-full fixed top-0 left-0 z-50">
+    <div className=" w-full sticky top-0 left-0 z-50">
       <header className="header w-full">
         <div>
           <Link to="/" className="logo">
