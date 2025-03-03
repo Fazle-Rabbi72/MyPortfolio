@@ -25,8 +25,8 @@ const projects = [
   },
  
 ];
-
-const Projects = () => {
+//update
+const Project = () => {
   return (
     <section className="py-16 px-6 md:px-16 bg-[var(--bg-color)] text-[var(--text-color)]">
       <div className="container mx-auto">
@@ -63,4 +63,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Project;

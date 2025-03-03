@@ -12,7 +12,8 @@ import App from "./App";
 import Skills from "./Pages/Skills/Skills";
 import Services from "./Pages/Services/Services";
 import ProjectDetails from "./Pages/Projects/ProjectDetails";
-import Projects from "./Pages/Projects/projects";
+import Projects from "./Pages/Projects/Project";
+
 
 
 const router = createBrowserRouter([
@@ -34,7 +35,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/projects",
-        element:<Projects/>
+        element:<Project/>
       },
       {
         path: "/skills",
