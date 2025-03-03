@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import ThemeToggle from "../ThemeToggle/ThemeToggle";
 import "./Header.css";
+import logo from "../../assets/Logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -15,7 +16,7 @@ const Header = () => {
       <header className="header w-full">
         <div>
           <Link to="/" className="logo">
-            <img className="logo" src="./src/assets/logo.png" alt="Logo" />
+            <img className="logo" src={logo} alt="Logo" />
           </Link>
         </div>
 
