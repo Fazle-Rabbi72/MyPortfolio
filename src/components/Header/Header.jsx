@@ -15,7 +15,7 @@ const Header = () => {
       <header className="header w-full">
         <div>
           <Link to="/" className="logo">
-            <img className="logo" src="\src\assets\Logo.png" alt="" />
+            <img className="logo" src="./src/assets/logo.png" alt="Logo" />
           </Link>
         </div>
 
