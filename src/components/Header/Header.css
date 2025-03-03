@@ -1,0 +1,71 @@
+/* Base Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color:var(--bg-color);
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color:var(--text-color);
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+
+/* Hamburger Icon for Mobile */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.hamburger .bar {
+  width: 25px;
+  height: 3px;
+  background-color: var(--text-color);
+}
+
+/* Mobile View Styles */
+@media screen and (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: var(--bg-color);
+    width: 100%;
+    padding: 20px;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}
