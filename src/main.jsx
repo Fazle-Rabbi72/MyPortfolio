@@ -12,7 +12,7 @@ import App from "./App";
 import Skills from "./Pages/Skills/Skills";
 import Services from "./Pages/Services/Services";
 import ProjectDetails from "./Pages/Projects/ProjectDetails";
-import Projects from "./Pages/Projects/Project";
+import Project from "./Pages/Projects/Project";
 
 
 
