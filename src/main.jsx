@@ -4,7 +4,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 
 import { createBrowserRouter , RouterProvider} from "react-router-dom";
-import Home from "./Pages/Home/home";
+import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
 import Contact from "./Pages/Contact/Contact";
 import Projects from "./Pages/Projects/projects";
