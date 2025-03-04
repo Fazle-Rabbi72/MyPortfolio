@@ -120,7 +120,7 @@ const About = () => {
                 <strong>🎓 BSc in Computer Science & Engineering</strong>
               </p>
               <p className="text-gray-400">📍 City University</p>
-              <p className="text-gray-400">📅 2020 - 2024</p>
+              <p className="text-gray-400">📅 2023 - 2027</p>
             </div>
           )}
         </div>
