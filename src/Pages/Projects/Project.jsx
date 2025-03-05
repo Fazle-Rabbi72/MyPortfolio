@@ -73,15 +73,19 @@ const projects = [
 const Project = () => {
   return (
     <section className="py-16 px-6 md:px-16 bg-[var(--bg-color)] text-[var(--text-color)]">
+
       <div className="container mx-auto">
+
         <h2 className="text-4xl font-bold text-teal-400 text-center mb-10 uppercase tracking-wider">
           My Projects
         </h2>
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          
           {projects.map((project) => (
             <div
               key={project.id}
-              className="relative bg-[var(--bg-color-2)] backdrop-blur-xl p-6 rounded-xl shadow-lg border border-transparent hover:border-teal-400 transition-all duration-300 hover:scale-105 hover:shadow-teal-500/50"
+              className=" relative min-h-[450px]  bg-[var(--bg-color-2)] backdrop-blur-xl p-6 rounded-xl shadow-lg border border-transparent hover:border-teal-400 transition-all duration-300 hover:scale-105 hover:shadow-teal-500/50"
             >
               {/* Project Image */}
               <div className="overflow-hidden rounded-lg">
@@ -93,17 +97,17 @@ const Project = () => {
               </div>
 
               {/* Project Title */}
-              <h3 className="mt-4 text-2xl font-semibold text-teal-300 text-center md:text-left">
+              <h3 className="mt-4 text-2xl font-semibold text-teal-300  lg:text-start md:text-start">
                 {project.title}
               </h3>
 
               {/* Project Description */}
-              <p className="mt-2 text-gray-400 text-center md:text-left">
+              <p className="mt-2 mb-24 text-gray-400 text-center md:text-start">
                 {project.description}
               </p>
 
               {/* View Project Button */}
-              <div className="mt-4 flex justify-center md:justify-start">
+              <div className="absolute bottom-4 mx-auto w-full mt-4 flex justify-center md:justify-start">
                 <Link
                   to={`/projects/${project.id}`}
                   state={{ project }}
