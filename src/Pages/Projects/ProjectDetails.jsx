@@ -12,7 +12,7 @@ const ProjectDetails = () => {
   }
 
   return (
-    <div className="container mx-auto p-6 py-16">
+    <div className="container mx-auto px-6 py-16">
       <h2 className="text-4xl font-bold text-teal-400 text-center mb-8">
         {project.title}
       </h2>
