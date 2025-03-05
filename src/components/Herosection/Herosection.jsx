@@ -1,5 +1,6 @@
 import React from "react";
-import { FaFacebook,  FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaFacebook, FaLinkedin, FaGithub } from "react-icons/fa";
+import "./Herosection.css";
 
 const HeroSection = () => {
   return (
@@ -48,8 +49,8 @@ const HeroSection = () => {
             </p>
             <p className="mb-4 w-full text-gray-500 leading-relaxed">
               I’m a skilled and experienced backend developer passionate about
-              coding,<br /> problem-solving, and creating impactful software
-              solutions.
+              coding,
+              <br /> problem-solving, and creating impactful software solutions.
             </p>
             <button className="relative bg-teal-500 text-white px-6 py-3 rounded-md self-start shadow-lg transition-transform transform hover:scale-105 hover:shadow-teal-500/50">
               <a
@@ -62,6 +63,18 @@ const HeroSection = () => {
                 RESUME
               </a>
             </button>
+          </div>
+
+          {/* Animated Image Section */}
+          <div className="relative lg:w-1/3 flex justify-center items-center">
+            {/* Hidden for small screens */}
+            <div className="hidden lg:block relative w-[300px] h-[300px] lg:w-[400px] lg:h-[400px] rounded-lg overflow-hidden shadow-2xl ring-4 ring-teal-400 ring-opacity-50 bg-gradient-to-r from-teal-500 to-blue-500 hover:scale-105 transition-transform ease-in-out duration-500 clip-path-polygon-hexagon">
+              <img
+                src="https://i.pinimg.com/originals/5c/8f/08/5c8f08b5fe55e12baae6fc54e46c343a.gif"
+                alt="Coding Animation"
+                className="w-full h-full object-cover rounded-lg animate-fade-in opacity-90 hover:opacity-100 transition-opacity duration-500"
+              />
+            </div>
           </div>
 
           {/* Follow Me Section (Mobile Only) */}

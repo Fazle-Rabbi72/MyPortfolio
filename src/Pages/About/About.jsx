@@ -16,7 +16,23 @@ const About = () => {
   return (
     <section className="py-16 px-6  md:px-16 bg-[var(--bg-color)] text-[var(--text-color)]">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
-        {/* Left Side - Info */}
+
+        {/* Left Side - image */}
+        <div className="flex justify-center">
+          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-teal-400 shadow-lg shadow-teal-500/50 group">
+            <div className="absolute inset-0 bg-gradient-to-r from-teal-500 to-teal-300 opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
+            <img
+              src="https://avatars.githubusercontent.com/u/142036307?s=400&u=c47583584f90cf5a031a40eaecf6ef429287f7c8&v=4"
+              alt="Profile"
+              className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:rotate-6"
+            />
+            <div className="absolute bottom-0 left-0 w-full text-center text-[var(--text-color)] bg-teal-400 bg-opacity-40 py-2 opacity-0 group-hover:opacity-100 transition-all duration-300">
+              <p className="font-semibold">Fazle Rabbi</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Right Side - info */}
         <div className="space-y-6">
           <h2 className="text-4xl font-bold text-teal-400">About Me</h2>
 
@@ -125,20 +141,6 @@ const About = () => {
           )}
         </div>
 
-        {/* Right Side - Image */}
-        <div className="flex justify-center">
-          <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-teal-400 shadow-lg shadow-teal-500/50 group">
-            <div className="absolute inset-0 bg-gradient-to-r from-teal-500 to-teal-300 opacity-0 group-hover:opacity-60 transition-all duration-300"></div>
-            <img
-              src="https://avatars.githubusercontent.com/u/142036307?s=400&u=c47583584f90cf5a031a40eaecf6ef429287f7c8&v=4"
-              alt="Profile"
-              className="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:rotate-6"
-            />
-            <div className="absolute bottom-0 left-0 w-full text-center text-[var(--text-color)] bg-teal-400 bg-opacity-40 py-2 opacity-0 group-hover:opacity-100 transition-all duration-300">
-              <p className="font-semibold">Fazle Rabbi</p>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

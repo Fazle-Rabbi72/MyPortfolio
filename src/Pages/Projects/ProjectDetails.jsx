@@ -24,7 +24,7 @@ const ProjectDetails = () => {
         />
         <div className="text-gray-500">
           <h3 className="text-2xl font-semibold mb-4">Project Details</h3>
-          <div className="mb-4 px-3">
+          <div className="mb-4 ">
           <p className="mb-4 text-[var(--text-color)]">{project.details}</p>
           </div>
           <div className="flex space-x-4">
