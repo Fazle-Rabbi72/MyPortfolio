@@ -54,7 +54,7 @@ const HeroSection = () => {
             </p>
             <button className="relative bg-teal-500 text-white px-6 py-3 rounded-md self-start shadow-lg transition-transform transform hover:scale-105 hover:shadow-teal-500/50">
               <a
-                href="https://drive.google.com/file/d/1Q7zBVWuGYyGy67koDqzEVbngfnNweOpG/view?usp=sharing"
+                href="https://drive.google.com/file/d/1kOnUS0F5o0OtiZ0asM7njF8nhFnvwCMf/view?usp=sharing"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
