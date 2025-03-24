@@ -18,8 +18,8 @@ const projects = [
       "JavaScript",
       "PostgreSQL",
     ],
-    tools: ["VS Code", "GitHub", "Vercel", "Postman", "Swagger"],
-    link_frontend: "https://hr-management-system-frontend-seven.vercel.app/",
+    tools: ["VS Code", "GitHub", "Vercel", "Netlify", "Postman", "Swagger"],
+    link_frontend: "https://hr-management-system23.netlify.app/",
     link_backend:
       "https://vercel.com/fazle-rabbis-projects-77d91d11/hr-management-system",
     link_backend_code: "https://github.com/Fazle-Rabbi72/HR-Management-System",
@@ -29,7 +29,7 @@ const projects = [
     title: "Hotel Booking System",
     description:
       "A hotel booking system with user authentication and payment handling.",
-    image: "https://i.postimg.cc/prpFvwVv/naturesparadaise.jpg",
+    image: "https://i.postimg.cc/NM38wLhS/hotel-booking.jpg",
     details:
       "This hotel booking system is a full-stack web application that provides a seamless experience for users to search, book, and manage hotel reservations. The platform integrates secure authentication, real-time balance adjustments, automated email notifications, and review management. Built using Django REST Framework for the backend and HTML, CSS, and JavaScript for the frontend, the system ensures data integrity, security, and efficiency while providing a smooth user experience.",
     technology: [
@@ -39,14 +39,15 @@ const projects = [
       "CSS",
       "JavaScript",
       "Sqlite",
-      "Bootstrap",
+      "React js",
+      "Tailwind CSS",
     ],
     tools: ["VS Code", "GitHub", "Render", "Postman", "Netlify"],
-    link_frontend: "https://natures-paradise.netlify.app/",
+    link_frontend: "https://hotel-booking-system23.netlify.app/",
     link_backend: "https://natures-paradise-stlb.onrender.com/",
     link_backend_code: "https://github.com/Fazle-Rabbi72/hotel_booking_backend",
     link_frontend_code:
-      "https://github.com/Fazle-Rabbi72/hotel_booking_frontend",
+      "https://github.com/Fazle-Rabbi72/Hotel_Booking_Project_Frontend",
   },
   {
     id: 3,
